@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "222c7073-879f-47b1-b1f9-6aa219d6b239",
+		"name": "SoftUni_HTTP_Basics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30147981"
+	},
+	"item": [
+		{
+			"name": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"description\" : \"Egypt welcomes you!\",\r\n\r\n\"imagePath\" : \"https://www.karacitours.bg/public/thumbs/767x341/egipet/egipet-4_767x341_crop_542eb8694d.jpg\",\r\n\r\n\"name\" : \"Pyramids of Giza, Egypt\",\r\n\r\n\"edit\": \"true\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"description\" : \" October-November and February-March are the best times to see the northern lights. Dark skies yield better displays – avoid full moon. \",\r\n\r\n\"imagePath\" : \"https://www.aurora-nights.co.uk/wp-content/uploads/2019/07/norway-northern-lights-1500x587_c.jpg\",\r\n\r\n\"name\" : \"Capture the Northern Lights on camera\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"description\" : \" October-November and February-March are the best times to see the northern lights. Dark skies yield better displays – avoid full moon. \",\r\n\r\n\"imagePath\" : \"https://www.aurora-nights.co.uk/wp-content/uploads/2019/07/norway-northern-lights-1500x587_c.jpg\",\r\n\r\n\"name\" : \"Capture the Northern Lights on camera\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips/-NfVjWFO8fbQm39za6Wj.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips",
+						"-NfVjWFO8fbQm39za6Wj.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"description\" : \"Egypt welcomes you!\",\r\n\r\n\"imagePath\" : \"https://www.karacitours.bg/public/thumbs/767x341/egipet/egipet-4_767x341_crop_542eb8694d.jpg\",\r\n\r\n\"name\" : \"Pyramids of Giza, Egypt\",\r\n\r\n\"edit\": \"true\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips",
+						"-MIJ0HydEYF0x6fljO55.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
