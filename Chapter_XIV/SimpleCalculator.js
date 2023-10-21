@@ -25,6 +25,7 @@ function calculator(N, M, operator) {
     const result = operations[operator]?.();
     console.log(result);
 
+    return result;
 }
 
 calculator(5, 5, 'multiply')
